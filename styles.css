@@ -16,7 +16,7 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 0.5em;
   row-gap: 0.5em;
   position: absolute;
@@ -38,6 +38,7 @@ body {
   justify-content: center;
   width: 100%;
   margin: 0em 0em 0em 0em;
+  
 }
 
 @media only screen and (max-width: 960px) {
@@ -55,9 +56,9 @@ body {
 }
 
 .bookmark-set {
-  padding: 0.5em 1em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
   background-color: var(--containerBg);
-  border-radius: 20px;
+  border-radius: 0px;
   font-family: 'Roboto Mono';
   font-size: 0.85rem;
   width: auto;
