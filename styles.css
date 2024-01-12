@@ -26,19 +26,6 @@ body {
   padding: 0.5em 0.5em 0.5em 0.5em;
 } /* position bottom left — делают выравнивание по нижней части страницы */
 
-.container {
-  width: 50%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-} /* position bottom left — делают выравнивание по нижней части страницы */ 
-
-
 
 .inline {
   display: inline-block;
@@ -101,17 +88,11 @@ body {
   border: 3px solid #ffffff00;
 }
 
-.bookmark-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: var(--fg);
-  margin: 0em 0em 0em 0em;
-}
 .bookmark {
   text-decoration: none;
   color: var(--secondaryFg);
   display: block;
-  margin: 0.33em 0em;
+  margin: 0.25em 0em;
 }
 .bookmark:hover {
   color: var(--fg);
