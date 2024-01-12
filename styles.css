@@ -17,12 +17,13 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 0.5em;
+  row-gap: 0.5em;
   position: absolute;
   bottom: 0;
-  left: 0;
   height: auto;
   flex-direction: column;
-  padding: 0.25em 0.25em 0.25em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
 } /* position bottom left — делают выравнивание по нижней части страницы */
 
 .container {
