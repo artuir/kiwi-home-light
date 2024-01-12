@@ -5,7 +5,6 @@
   --fg: #d8dee9;
   --secondaryFg: #e5e9f0;
   --containerBg: #2e3440;
-  --searchBg: var(--containerBg);
   --scrollbarColor: #2e3440;
   --scrollbarVisibility: hidden;
 }
