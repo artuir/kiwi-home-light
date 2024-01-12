@@ -7,7 +7,6 @@
     
     <title>Home</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
 </head>
 <body>
     <div id="search">
@@ -17,9 +16,9 @@
         <div id="clock"></div>
         <div class="bookmark-container">
             <div class="bookmark-set">
-                <div class="bookmark-title">Красный</div>
+                <div class="bookmark-title">Белый</div>
                 <div class="bookmark-inner-container">
-                    <a class="bookmark" href="https://github.com/DanteAlighierin" target="_blank">Github</a>
+                    <a class="bookmark" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Gmail</a>
                     <a class="bookmark" href="https://yaklass.ru" target="_blank">Yaklass</a>
 		    <a class="bookmark" href=" https://аргимн2.эдо.образование33.рф/mod/mp/dashboardjs.php?config=%7B%22layout%22%3A%22dashboard%22%2C%22pagetype%22%3A%22dashboard%22%2C%22so%22%3A%220%22%2C%22navigation%22%3A%5B%7B%22key%22%3A%22dashboard%22%7D%5D%7D  ">Edu33</a>
             <a class="bookmark" href="https://dantealighierin.github.io" >My blog</a>
@@ -50,9 +49,9 @@
             <div class="bookmark-set">
                 <div class="bookmark-title">Белый</div>
                 <div class="bookmark-inner-container">
-                    <a class="bookmark" href="https://vk.com" target="_blank">Vk</a>
-                    <a class="bookmark" href="https://twitter.com" >Twitter</a>
-		    <a class="bookmark" href="https://mastodon.social/web/timelines/home ">Mastadon</a>
+                    <a class="bookmark" href="https://hotleak.tv" target="_blank">hotleak</a>
+                    <a class="bookmark" href="https://femdom-joi.com">femdom-joi</a>
+		    <a class="bookmark" href="https://pornovideoshub.com/category/femdom">pornovideoshub</a>
                 </div>
             </div>
         </div>
@@ -69,13 +68,11 @@
         function getTime() {
             let date = new Date(),
                 min = date.getMinutes(),
-                sec = date.getSeconds(),
                 hour = date.getHours();
 
             return "" + 
                 (hour < 10 ? ("0" + hour) : hour) + ":" + 
-                (min < 10 ? ("0" + min) : min) + ":" + 
-                (sec < 10 ? ("0" + sec) : sec);
+                (min < 10 ? ("0" + min) : min);
         }
 
         window.onload = () => {
