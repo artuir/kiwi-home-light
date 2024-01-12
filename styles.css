@@ -24,7 +24,7 @@ body {
   height: auto;
   width: auto;
   flex-direction: column;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+  padding: 5px 5px 5px 5px;
 } /* position bottom left — делают выравнивание по нижней части страницы */
 
 
@@ -61,7 +61,7 @@ body {
   border-radius: 8px;
   font-family: 'Roboto Mono';
   font-size: 0.8rem;
-  width: 130px;
+  width: 127px;
   height: auto;
   margin: 0em 0em;
   box-sizing: border-box;
