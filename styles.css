@@ -58,10 +58,10 @@ body {
 .bookmark-set {
   padding: 0.5em 0.5em 0.5em 0.5em;
   background-color: var(--containerBg);
-  border-radius: 0px;
+  border-radius: 8px;
   font-family: 'Roboto Mono';
   font-size: 0.85rem;
-  width: auto;
+  width: 100px;
   height: auto;
   margin: 0em 0em;
   box-sizing: border-box;
@@ -71,16 +71,13 @@ body {
   overflow-y: scroll;
   height: 100%;
   vertical-align: top;
-  padding-right: 6px;
   box-sizing: border-box;
   scrollbar-visibility:hidden;
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbarColor) #ffffff00;
 }
 
-.bookmark-inner-container::-webkit-scrollbar {
-  width: 6px;
-}
+
 .bookmark-inner-container::-webkit-scrollbar-track {
   background: #ffffff00;
 }
@@ -94,7 +91,7 @@ body {
   text-decoration: none;
   color: var(--secondaryFg);
   display: block;
-  margin: 0.25em 0em;
+  margin: 0.25em 0em 0em 0em;
 }
 .bookmark:hover {
   color: var(--fg);
