@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condenced');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 :root {
   --bg: #3b4252;
@@ -75,7 +76,7 @@ body {
   box-sizing: border-box;
   scrollbar-visibility:hidden;
   scrollbar-width: none;
-  font-family: 'Roboto Condenced';
+  font-family: 'Oswald';
   font-size: 1rem;
 }
 
