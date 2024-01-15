@@ -78,6 +78,7 @@ body {
   scrollbar-width: none;
   font-family: 'Oswald';
   font-size: 1rem;
+  font-weight: 400;
 }
 
 .bookmark {
