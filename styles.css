@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condenced');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 :root {
@@ -76,7 +76,7 @@ body {
   box-sizing: border-box;
   scrollbar-visibility:hidden;
   scrollbar-width: none;
-  font-family: 'Oswald';
+  font-family: 'PT Sans';
   font-size: 1rem;
   font-weight: 200;
 }
